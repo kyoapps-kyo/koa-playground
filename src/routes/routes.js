@@ -1,9 +1,5 @@
 import combineRoutes from 'koa-combine-routers';
-import aRoutes from './aRouter.js';
-import bRoutes from './bRouter.js';
-import userR from './userRouter.js';
+import demoRouter from './demoRouter';
 export default combineRoutes(
-    aRoutes,
-    bRoutes,
-    userR
+    demoRouter,
 );
